@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com"
+    prism:ViewModelLocator.AutowireViewModel="True"
+	xmlns:local="clr-namespace:XamarinNavigationTests.Views;assembly=XamarinNavigationTests"
+    x:Class="XamarinNavigationTests.Views.LoginPage"
+    Title="Login">
+
+
+
+	  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+          <Label Text="LoginPage" VerticalOptions="Center" HorizontalOptions="Center" />
+		          <Button Text="Home" Command="{Binding Path=NavigateCommand}" CommandParameter="HomePage" />
+	  </StackLayout>
+    
+
+</ContentPage>
+

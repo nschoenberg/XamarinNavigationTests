@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com"
+    prism:ViewModelLocator.AutowireViewModel="True"
+	xmlns:local="clr-namespace:XamarinNavigationTests.Views;assembly=XamarinNavigationTests"
+    x:Class="XamarinNavigationTests.Views.GoodsInDetail"
+    Title="Goods In Detail">
+
+
+
+	  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+          <Label Text="GoodsInDetail" VerticalOptions="Center" HorizontalOptions="Center" />
+			  </StackLayout>
+    
+
+</ContentPage>
+
