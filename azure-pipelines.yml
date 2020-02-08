@@ -1,0 +1,14 @@
+# https://docs.microsoft.com/azure/devops/pipelines/ecosystems/xamarin
+pool:
+  vmImage: 'macOS-10.14' # For Windows, use 'vs2017-win2016'
+  
+ variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: XamariniOS@2
+  inputs:
+    solutionFile: '**/*iOS.csproj'
+    configuration: '$(buildConfiguration)'
+    packageApp: false
+    buildForSimulator: true
